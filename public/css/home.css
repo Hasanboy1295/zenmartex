@@ -1,8 +1,6 @@
 .home_page {
   display: flex;
   flex-direction: column;
-
-  padding-bottom: 60px;
 }
 .white.svg {
   filter: brightness(0) invert(1);
@@ -105,7 +103,7 @@
 }
 .container.next_prev_box img {
   position: absolute;
-  margin-top: 30px;
+  top: 50%;
   cursor: pointer;
 }
 /* Product Card */
@@ -730,6 +728,7 @@
   justify-content: center;
 
   background-image: url(/public/images/icons/event_bg.png);
+  background-size: cover;
 }
 .event_frame .container {
   flex-direction: row;
